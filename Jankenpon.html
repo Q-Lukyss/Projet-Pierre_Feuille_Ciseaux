@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./jakanscript.js"></script>
+    <title>Pierre Feuille Ciseaux</title>
+</head>
+<body>
+    <main class="app">
+        <div class="choice_human">
+            <div class="pierre" onclick="setChoices('pierre')">
+                <img src="./img/rock.svg" alt="pierre">
+            </div>
+            <div class="feuille" onclick="setChoices('feuille')">
+                <img src="./img/leaf.svg" alt="feuille">
+            </div>
+            <div class="ciseaux" onclick="setChoices('ciseaux')">
+                <img src="./img/scissors.svg" alt="ciseaux">
+            </div>
+        </div>
+        <div class="main_info">
+            <h1>Pierre Feuille Ciseaux</h1>
+            <h2 class="info"></h2>
+            <h2 class="count">Victoire du Joueur: 0 <br />Victoire de l'ordi: 0 <br />Egalités :0</h2>
+        </div>
+        <div class="choice_ia">
+            <div class="empty"><span>Choix de l'IA</span></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
